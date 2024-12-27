@@ -213,6 +213,214 @@ nav ul li a:hover {
   font-size: 15px;
 }
 
+.testimonials {
+  padding: 70px 120px;
+  background: #f8f9fa;
+}
+
+.top_header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.top_header_intro {
+  color: #2fc4b2;
+  padding-bottom: 6px;
+}
+
+.top_header h2 {
+  font-family: serif;
+  padding-bottom: 10px;
+  color: #364d59;
+  font-size: 30px;
+}
+
+.top_header_para {
+  color: #636262;
+}
+
+.testimonials_card_containnear {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.testimonials_card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #dfdbdb;
+}
+
+.testimonials_paragraph {
+  text-transform: capitalize;
+  line-height: 24px;
+  color: #545353;
+  padding-bottom: 12px;
+}
+
+.testimonials_use_card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonials_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.testimonials_use_card h4 {
+  color: #3b3a3a;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.testimonials_use_card p {
+  color: #545353;
+}
+
+.blog {
+  padding: 70px 120px;
+}
+
+.blog_card_contaneat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.blog_card img {
+  height: 260px;
+  width: 100%;
+}
+
+.card_content {
+  padding: 10px 0px;
+}
+
+.date {
+  color: #636262;
+  padding-bottom: 8px;
+}
+
+.card_content h4 {
+  font-size: 22px;
+  font-weight: 100;
+  font-family: serif;
+  padding-bottom: 8px;
+  color: #0a1216;
+}
+
+.description {
+  text-transform: capitalize;
+  line-height: 24px;
+  color: #545353;
+}
+
+.newsleatter {
+  padding: 50px 120px;
+  background: #2fc4b2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsleatter_header {
+  color: #fff;
+  font-family: serif;
+  font-size: 30px;
+  padding-bottom: 6px;
+}
+
+.newsleatter_description {
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 24px;
+}
+
+.btn_two {
+  padding: 15px 35px;
+  border: none;
+  background: #fff;
+  color: #2fc4b2;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+.btn_two:hover {
+  background: #d4d4d4;
+  color: #000;
+}
+
+footer {
+  padding: 50px 120px 0px 120px;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid rgb(213, 211, 211);
+}
+
+.company_name h4 {
+  color: #545353;
+  font-size: 25px;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+
+.company_name p {
+  color: #535353;
+  text-transform: capitalize;
+  line-height: 24px;
+}
+
+.menu h4 {
+  color: #545353;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #535353;
+}
+
+.footer_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #545353;
+  padding: 20px 0px;
+}
+
+.footer_right ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.footer_right ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* 
 Color: #2fc4b2 
 BG Color : #2fc4b2 
